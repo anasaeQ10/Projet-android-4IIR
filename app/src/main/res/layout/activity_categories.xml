@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".BudgetActivity">
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/categoryCard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Category Name -->
+            <TextView
+                android:id="@+id/categoryFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <!-- Spend Information -->
+            <TextView
+                android:id="@+id/categoryFoodSpend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spent: 0 MAD of 1000 MAD"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="8dp" />
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/categoryProgress1"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="16dp"
+                android:progress="40"
+                android:max="100"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressTint="#1976D2"
+                android:backgroundTint="#E0E0E0"
+                android:indeterminate="false" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/categoryCard2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryCard1"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Category Name -->
+            <TextView
+                android:id="@+id/categoryFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category 1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <!-- Spend Information -->
+            <TextView
+                android:id="@+id/categoryFoodSpend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spent: 0 MAD of 1000 MAD"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="8dp" />
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/categoryProgress1"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="16dp"
+                android:progress="40"
+                android:max="100"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressTint="#1976D2"
+                android:backgroundTint="#E0E0E0"
+                android:indeterminate="false" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/resetCard"
+       />
+
+
+    <include layout="@layout/navbar" />
+
+</RelativeLayout>
