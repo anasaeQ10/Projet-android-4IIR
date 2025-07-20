@@ -63,8 +63,24 @@ Une application mobile simple et intuitive pour gérer vos finances personnelles
 ### ⚙️ Étapes d'installation
 
 1. **Cloner le dépôt :**
+   
+   ```bash
+   git clone https://github.com/anasaeQ10/Projet-android-4IIR
 
-```bash
-git clone https://github.com/anasaeQ10/Projet-android-4IIR
+
+---
+
+## 📸 Captures d'écran
+
+<img width="367" height="425" alt="Screenshot 2025-07-20 at 09 56 27" src="https://github.com/user-attachments/assets/41e1b26c-f301-48ff-bbff-bf6b4b9ecdd1" />
+<img width="389" height="781" alt="Screenshot 2025-07-20 at 09 57 14" src="https://github.com/user-attachments/assets/3adb9cb5-ed32-44d5-afca-309e012358c6" />
+<img width="394" height="778" alt="Screenshot 2025-07-20 at 09 57 51" src="https://github.com/user-attachments/assets/3750f63e-7e22-4ecb-8168-be7418fdb6e7" />
 
 
+---
+
+## 👨‍💻 Auteurs 
+
+Mounir ELRHARBALI
+Anas AIT EL QADI 
+Mohamed Taha IZMAR
