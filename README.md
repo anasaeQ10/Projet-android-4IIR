@@ -81,6 +81,6 @@ Une application mobile simple et intuitive pour gérer vos finances personnelles
 
 ## 👨‍💻 Auteurs 
 
-Mounir ELRHARBALI
-Anas AIT EL QADI 
-Mohamed Taha IZMAR
+- Mounir ELRHARBALI
+- Anas AIT EL QADI
+- Mohamed Taha IZMAR
